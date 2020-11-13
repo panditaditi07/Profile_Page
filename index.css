@@ -180,7 +180,7 @@ ul li {
   /* Adjust with JavaScript */
   height: 5px;
   border-radius: 1px;
-  width: 69%;
+  width: 59%;
   animation-name: increase-width-1;
   animation-duration: 1s;
   animation-delay: 3s;
@@ -192,18 +192,18 @@ ul li {
     transform: scaleX(10px);
     width: 0%;
   }
-  23% {
+  20% {
     transform: scaleX(10px);
-    width: 25%;
+    width: 20%;
   }
-  46% {
+  40% {
     transform: scaleX(10px);
-    width: 50%;
+    width: 40%;
   }
 
   100% {
     transform: scaleX(10px);
-    width: 69%;
+    width: 59%;
   }
 }
 .progressbar-2 > div {
@@ -223,13 +223,9 @@ ul li {
     transform: scaleX(10px);
     width: 0%;
   }
-  15% {
+  25% {
     transform: scaleX(10px);
-    width: 15%;
-  }
-  30% {
-    transform: scaleX(10px);
-    width: 30%;
+    width: 25%;
   }
   100% {
     transform: scaleX(10px);
@@ -242,7 +238,7 @@ ul li {
   /* Adjust with JavaScript */
   height: 5px;
   border-radius: 1px;
-  width: 30%;
+  width: 20%;
   animation-name: increase-width-3;
   animation-duration: 1s;
   animation-delay: 3s;
@@ -254,14 +250,10 @@ ul li {
     transform: scaleX(10px);
     width: 0%;
   }
-  20% {
-    transform: scaleX(20px);
-    width: 20%;
-  }
 
   100% {
-    transform: scaleX(20px);
-    width: 30%;
+    transform: scaleX(10px);
+    width: 20%;
   }
 }
 
