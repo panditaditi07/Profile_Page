@@ -37,7 +37,7 @@ ul li {
   width: auto;
 }
 .banner-image {
-  background: url("/images/banner.jpg");
+  background: url("/images/banner.jpeg");
   min-height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,7 +57,7 @@ ul li {
 }
 @media (max-width: 600px) {
   .banner-image {
-    background-image: url("/images/banner.jpg");
+    background-image: url("/images/banner.jpeg");
     min-width: 100%;
     min-height: 600px;
   }
