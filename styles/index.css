@@ -9,19 +9,6 @@ html {
   box-sizing: border-box;
 }
 
-/* a {
-  text-decoration: none;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-ul li {
-  display: inline-block;
-  padding: 20px;
-}*/
-
 a {
   text-decoration: none;
 }
@@ -50,7 +37,7 @@ ul li {
   width: auto;
 }
 .banner-image {
-  background-image: url("images/banner-01.jpg");
+  background: url("/images/banner.jpg");
   min-height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -69,8 +56,8 @@ ul li {
   }
 }
 @media (max-width: 600px) {
-  .bg-img {
-    background-image: url("images/banner-01.jpg");
+  .banner-image {
+    background-image: url("/images/banner.jpg");
     min-width: 100%;
     min-height: 600px;
   }
