@@ -37,7 +37,7 @@ ul li {
   width: auto;
 }
 .banner-image {
-  background: url("/images/banner.jpeg");
+  background-image: url("../images/banner.jpeg");
   min-height: 600px;
   background-position: center;
   background-repeat: no-repeat;
